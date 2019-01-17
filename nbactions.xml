@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>run</actionName>
+            <packagings>
+                <packaging>jar</packaging>
+            </packagings>
+            <goals>
+                <goal>org.springframework.boot:spring-boot-maven-plugin:2.1.1.RELEASE:run</goal>
+            </goals>
+            <properties>
+                <exec.executable>java</exec.executable>
+            </properties>
+        </action>
+    </actions>
